@@ -1,7 +1,7 @@
 import FactList from "./components/FactList"
 import Header from "./components/Header"
 import type { Fact } from "./types"
-import { use, useState } from "react"
+import { useState } from "react"
 
 const INITIAL_FACTS: Fact[] = [
   {
