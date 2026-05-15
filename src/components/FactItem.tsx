@@ -15,8 +15,8 @@ export default function FactItem({fact}: FactItemProps){
         <>
            <li>
             <p>{fact.text}</p>
-            <a href={fact.source}>(Source)</a>
-            <span>{fact.category}</span>
+            <a href={fact.source} target="_blank">(Source)</a>
+            <span> {fact.category}</span>
 
            </li>
         </>
