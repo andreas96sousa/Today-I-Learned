@@ -14,11 +14,13 @@ export default function FactList({facts}: FactListProps){
 
     return(
         <>
-            {
+           <ul>
+             {
                 facts.map(fact => {
                     return <FactItem key={fact.id} fact={fact} />
                 })
             }
+           </ul>
         </>
     )
 }
